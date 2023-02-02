@@ -1,0 +1,456 @@
+#heart_logo{
+    margin-top:5rem;
+}
+.sidenav-component{
+    position: absolute;
+    margin-top:3rem;
+    margin-left: 1rem;
+}
+.dashboard_containter{
+    width:100vw;
+    height:120vh;
+    margin-top:-1rem;
+    margin-left:-1rem;
+    background:#eff2f8;
+    position:relative;
+}
+.dashboard_containter .dashboard_details{
+   width:90%;
+   height:96%;
+   position:absolute;
+   background-color: #fff;
+   display: flex;
+   top:4.5%;
+   left:9%;
+   border-radius: 10px;
+   box-shadow:0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    
+
+  
+}
+.dashboard_details .addmember{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:7vh;
+    background: #eff2f8;
+}
+.dashboard_details .addmember #arrow_icon{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:9vw;
+}
+#arrow{
+    color:red;
+}
+.dashboard_details .addmember #close{
+    margin-left:-3rem;
+    color:#A7A9AC;
+}
+.dashboard_details #header_info{
+    position: absolute;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    width:86vw;
+    height:5vh;
+    top:3.6rem;
+    left:1.5rem;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.dashboard_details #header_info h4{
+    margin-right:3rem;
+    margin-left:1rem;
+}
+.dashboard_details #header_info #line_space{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ position: absolute;
+}
+#line{
+    width:5vw;
+    border: 1px solid red;
+    top:1rem;
+    left:0.8rem;
+   position: absolute;
+   opacity: 0;
+ 
+}
+ #line:hover{
+   
+    opacity: 1;
+    cursor: pointer;
+    transition:1s;
+   
+
+
+}
+#line1{
+    width:8vw;
+    position: absolute;
+    border: 1px solid red;
+    top:1rem;
+    left:10rem;
+    opacity: 0;
+ 
+}
+#line1:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition:1s;
+
+}
+#line2{
+    width:5vw;
+    border: 1px solid red;
+    top:1rem;
+    left:21.5rem;
+   position: absolute;
+   opacity: 0;
+ 
+}
+#line2:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition:1s;
+   
+}
+.side_nav .hover_area{
+    width:123%;
+    height:6.6vh;
+    background:#eff2f8; 
+    padding: 0.8rem;
+    top:-0.6rem;
+    left:-1rem;
+    border-radius:40px  0   0 40px;
+    position: relative;
+    margin-top:1rem;
+    opacity:0; 
+    z-index: -1;
+    
+}
+.side_nav  .hover_area:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#side-element{
+    position:absolute;
+    top:5rem;
+}
+#logout{
+
+  position: absolute;
+  top:50rem;
+
+}
+#hover-area1{
+    width:93%;
+    margin-left:3rem;
+}
+
+#patient_detail{
+    display: flex;
+    position: absolute;
+    left:10rem;
+    width:100%;
+    font-size: 13px;
+    top:2rem;
+}
+.upload_photo{
+    position: absolute;
+   display: flex;
+   flex-direction: row;
+   object-fit: contain;
+   justify-content:space-between;
+   align-items: center;
+   width:23vw;
+   height:15vh;
+   margin-top:9rem;
+  
+ 
+}
+.upload_photo .circle{
+    width:75px;
+    height:75px;
+    position: relative;
+    position: sticky;
+    border-radius: 50%;
+    border: 1px dashed #E83F40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.upload_photo #camera{
+ 
+    text-align: center;
+    top:1rem;
+    left:1.4rem;
+    color:#A7A9AC;
+    font-size: 24px;
+    z-index:100;
+}
+.upload_photo #image_upload{
+    width:90%;
+    height:90%;
+    position: absolute;
+    border-radius: 50%;
+   
+}
+.upload_photo input[type="file"]{
+   opacity:0;
+   position: absolute;
+   cursor: pointer;left:0;
+   top:0;
+}
+.upload_photo #btn{
+    width:120px;
+    height:30px; 
+    background: transparent;
+    color:#5F6062;
+    border-radius: 5px;
+    border:1px solid #d8d8d8;
+    position: relative;
+    
+}
+
+.personal_info{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:18rem;
+
+    
+}
+.personal_info .details{
+    position: absolute;
+    flex-direction: column;
+    width:20vw;
+    height:5vh;
+    border-radius: 5px;
+    border:1px solid #d8d8d8;
+    padding-left:1rem;
+    outline: 0;
+    margin-top:0.3rem;
+ }
+.personal_info p{
+    position: absolute;
+    color:#A7A9AC;
+    font-size:12px;
+    margin-top:-2rem;
+}
+
+.name_feild label{
+   
+    margin-right: 26rem;
+}
+.contact_feild {
+    margin-top:1.5rem;
+}
+.contact_feild label{
+    margin-right: 24.5rem;
+
+  
+}
+.personal_info #input{
+    margin-left:29.5rem;
+   
+}
+
+.health_info{
+    position: absolute;
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    top:28rem;
+    width:56.5vw;
+    height: 10%;
+
+    
+}
+
+.info_label {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  column-gap: 7.1rem;
+  justify-content:space-between;
+  align-items: center;
+  font-size:14px;
+}
+
+.info_label .age{
+    position: absolute;
+left:15.1rem;
+}
+.info_label .height{
+    position: absolute;
+left:24.5rem;
+}
+.info_label .weight{
+    position: absolute;
+left:33.5rem;
+}
+.info_label .bloodgroup{
+    position: absolute;
+left:42.6rem;
+}
+
+.info_values{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    justify-content: space-between;
+    align-items: flex-start;
+    top:-0.5rem;
+}
+.info_values .health_data{
+   width:6vw;
+   height:5vh;
+   margin-top: 2rem;
+   border-radius: 5px;
+   border:1px solid #d8d8d8;
+   padding-left:1rem;
+   outline: 0;
+}
+.info_values .gender{
+    width:200px;
+    height:5.5vh;
+    border-radius: 5px; 
+    border:1px solid #d8d8d8;
+    background: transparent;
+    margin-top:2rem;
+    outline: 0;
+    cursor: pointer;
+    color: #A7A9AC;
+ 
+}
+.address_feild{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    width:53.4vw;
+    height:10%;   
+    top:38rem;
+}
+.address_feild #enter_address{
+    width:100%;
+    height:5.5vh;
+    border-radius: 5px; 
+    border:1px solid #d8d8d8;
+    background: transparent;
+    padding-left:1rem;
+    outline: 0;
+    position: absolute;
+
+}
+.add_location{
+    
+  position: absolute;
+   display: flex;
+   flex-direction: row;
+   color:#A7A9AC;
+   justify-content:space-between;
+   align-items: center;
+   width:800px;
+   margin-top:-9rem;  
+}
+.auto_fill{
+    left:36rem;
+    position: absolute;
+
+}
+.add_label{
+    top:-3rem;
+    position: absolute;
+}
+#place_info{
+   position:absolute;
+   top:42rem;
+   width:54.8vw;
+}
+.place_label{
+      
+  display: flex;
+  flex-direction: row;
+  column-gap: 7.1rem;
+  justify-content:space-between;
+  align-items: flex-start;
+  position: absolute;
+  margin-top:-1.5rem;
+  width: 100%;
+}
+.place_label .state{
+position: absolute;
+left:13.6rem;
+
+}
+.place_label .town{
+    position: absolute;
+    left:54%;
+}
+.place_label .pincode{
+    position: absolute;
+    left:81%;
+}
+.places{
+   position: absolute;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   column-gap: 1.5rem;
+   width:100%;
+
+}
+.places .select_place{
+    width:150px;
+    height:30px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    background: transparent;
+    outline: 0 ;
+    cursor: pointer;
+    color:#A7A9AC;
+   
+   
+}
+.places .select_place:focus{
+    color:black;
+}
+
+.btn_container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    justify-content:space-between;
+    align-items: flex-start;
+    margin-top:46rem;
+    width:15.5vw;
+}
+
+.btn_container .next{
+  background: #E83F40;
+  color: white;
+  outline: 0;
+  border:none;
+
+  width:100px;
+  height:30px;
+  border-radius: 5px;  
+}
+#cancle{
+    background: transparent;
+    color: #5F6062;
+    border: 1px solid #d8d8d8;;
+}

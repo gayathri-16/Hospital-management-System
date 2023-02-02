@@ -1,0 +1,16 @@
+#otp_details{
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ font-size:12px;
+ color: #A7A9AC;
+
+}
+#otp_details #remember_password{
+    margin-left:-4rem;
+}
+b{
+    color:red;
+}
